@@ -82,7 +82,7 @@ const Navbar = () => {
 
               {/* Center - Menu (hidden on mobile) */}
               <div className='hidden md:flex space-x-6'>
-                <Link to="#" className="text-gray-700 hover:text-black text-sm font-medium uppercase transition-colors">
+                <Link to="collections/:collection" className="text-gray-700 hover:text-black text-sm font-medium uppercase transition-colors">
                   Men
                 </Link>
                 <Link to="#" className="text-gray-700 hover:text-black text-sm font-medium uppercase transition-colors">
